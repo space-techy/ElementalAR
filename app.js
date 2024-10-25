@@ -1,20 +1,17 @@
 import express from "express";
-import fs from "fs";
-import https from "https";
-
-
-const options = {
-    key: fs.readFileSync("./server.key"),
-    cert: fs.readFileSync("./server.cert"),
-}
+import path from "path";
+import { dirname } from 'splendid-ui/node'
+import cors from "cors";
 
 const app = express();
 const PORT = 3000;
 
-app.use(express.static('public'));
+const __dirname = dirname(import.meta.url)
+const publicDir = path.join(__dirname, '');
+app.use("/", express.static(publicDir));
 
 app.get("/", (req, res) => {
-    res.sendFile("./public/index.html");
+    res.sendFile(__dirname + "/index.html");
 });
 
 app.listen(PORT, () => {

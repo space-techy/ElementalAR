@@ -10,7 +10,9 @@
   "author": "space-techy",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.1",
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "splendid-ui": "^0.11.0-alpha.4"
   }
 }
