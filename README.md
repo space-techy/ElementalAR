@@ -26,9 +26,7 @@ H₂O Molecule in AR
 
 Demo Video
 
-
-https://github.com/user-attachments/assets/aabbf229-47aa-4fbb-8cf5-84c750026d3b
-
+https://github.com/user-attachments/assets/9aa9c032-ea8c-4d71-94ef-3fde48d226bf
 
 
 
