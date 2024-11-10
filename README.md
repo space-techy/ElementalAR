@@ -20,7 +20,17 @@ Key Features
 ----------
 
 H₂O Molecule in AR
-(./photos/h2o1.jpeg)
+
+<img src="/photos/h2o1.jpeg" data-canonical-src="/photos/h2o1.jpeg" width="200" height="300"/>
+
+
+Demo Video
+
+
+https://github.com/user-attachments/assets/aabbf229-47aa-4fbb-8cf5-84c750026d3b
+
+
+
 
 🚀 Technologies Used
 --------------------
@@ -37,10 +47,10 @@ H₂O Molecule in AR
 
 bash
 
-`
+```
 git clone https://github.com/space-techy/ElementalAR.git
 cd ElementalAR
-`
+```
 
 2\. Setup Static Server
 -----------------------
@@ -59,9 +69,7 @@ Open your browser and go to `http://localhost:3000`. Ensure camera permissions 
 📂 Project Structure
 --------------------
 
-text
-
-`
+```
 arjs-h2o-molecule/
 ├── node_modules/              # Project dependencies
 ├── photos/                    # Folder for images, including preview image for README
@@ -76,7 +84,7 @@ arjs-h2o-molecule/
 ├── package-lock.json          # Dependency lock file
 ├── server.cert                # SSL certificate for secure server setup
 └── server.key                 # SSL key for secure server setup
-`
+```
 
 Marker Files (`patt-files/`)
 ----------------------------
